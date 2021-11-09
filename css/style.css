@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.header__top {
+    background: #322E41;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+}
+
+.header__link {
+    padding: 23px 14px;
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 19px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header__link:hover {
+    background-color: white;
+    color: #D47300;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header__bottom {
+    background: url(../images/Nike-Adapt-BB\ 1.jpg) no-repeat center/cover;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__title {
+    color: white;
+    font-size: 50px;
+    line-height: 59px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.subtitle {
+    color: white;
+}
+
+.subtitle span {
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.left-snc {
+    width: 540px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 6px;
+}
+
+section {
+    background: #e5e5e5;
+}
+
+.img {
+    margin-bottom: 20px;
+}
+
+.text {
+    font-size: 16px;
+    line-height: 19px;
+    color: #9b9b9b;
+    margin-top: 10px;
+}
+
+.right-inner {
+    border-radius: 6px;
+    background-color: white;
+    width: 255px;
+    text-align: center;
+    padding: 15px;
+}
+
+.title {
+    font-size: 22px;
+    line-height: 6px;
+    color: #2C2A2A;
+    margin: 12px 0;
+}
+
+.wrapper-box {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: -30px;
+}
+
+.right-snc {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.left-snc {
+    margin-right: 30px;
+}
+
+.right-inner:nth-child(1), .right-inner:nth-child(2) {
+    margin-bottom: 30px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+
+.input {
+    padding: 8px;
+    background: #fff;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.input::placeholder {
+    color: #9b9b9b;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer {
+    background: #322e41;
+    padding-top: 35px;
+    padding-bottom: 57px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.texterea {
+    background: white;
+    border-radius: 6px;
+    outline: none;
+    resize: none;
+    max-height: 90px;
+    padding: 8px;
+    font-size: 18px;
+    line-height: 18px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 11px;
+}
+
+.texterea::placeholder {
+    color: #9b9b9b;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn {
+    background-color: #544294;
+    border-radius: 6px;
+    font-size: 16px;
+    line-height: 18px;
+    color: white;
+    border: none;
+    padding: 5px 0;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+}
+
+.footer__box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer__nav {
+    display: flex;
+    align-items: center;
+}
+
+.footer__list:nth-child(1) {
+    margin-right: 60px;
+}
+
+.footer__link {
+    font-size: 16px;
+    line-height: 19px;
+    color: white;
+    transition: color 0.5s;
+}
+.footer__items{
+    margin-bottom: 10px;
+}
+.footer__link:hover {
+    color: #d57300;
+}
